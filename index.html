@@ -26,7 +26,7 @@
 <body>
     
     <header class="bg-penguin pb-32">
-        <nav class="container mx-auto sm:flex sm:justify-between sm:items-center py-8">
+        <nav class="container mx-auto sm:flex sm:justify-between sm:items-center py-8 fixed">
             <div>
                 <img class="sm:w-48 sm:h-10 w-1/2" src="images/logo.png" alt="">
             </div>
@@ -34,12 +34,12 @@
                 <ul class="sm:flex">
                     <li class="sm:mr-5 flex items-center justify-center"><a href="#home">Home</a></li>
                     <li class="sm:mr-5  flex items-center justify-center"><a href="#product">Product</a></li>
-                    <li class="sm:mr-5  flex items-center justify-center"><a href="#about"></a>About us</li>
-                    <li class="sm:mr-5  flex items-center justify-center"><a href="#contract"></a>Contract us</li>
+                    <li class="sm:mr-5  flex items-center justify-center"><a href="#about">About us</a></li>
+                    <li class="sm:mr-5  flex items-center justify-center"><a href="#contract">Contract us</a></li>
                 </ul>
             </div>
         </nav>
-        <section class="container mx-auto  sm:flex items-center justify-around">
+        <section class="container mx-auto  sm:flex items-center justify-around" id="home">
            <div class="space-y-4">
                <h1 class="text-2xl sm:text-5xl font-bold text-amber-500">BE THE PENGUIN</h1> 
                <span class="text-2xl sm:text-5xl font-bold">OF WINTER</span>
@@ -57,7 +57,7 @@
         </section>
     </header>
     <main class="mb-24">
-        <section class=" container mx-auto  mb-11">
+        <section class=" container mx-auto  mb-11" id="product">
             <h1 class="text-2xl  sm:text-5xl font-bold my-14 mb-5">Women Jacket</h1>
             <div class="grid sm:grid-cols-3 md:grid-cols-3">
                <div class="bg-card w-full sm:w-96 md:w-full h-auto p-5 rounded-lg shadow-lg">
